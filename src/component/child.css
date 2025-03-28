@@ -1,0 +1,93 @@
+
+.table-section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .input-container {
+ 
+
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 30%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  thead {
+    background-color: #f4f4f4;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  
+  .green{
+    background-color: #d4edda;   
+    color: #155724;
+  }
+  
+  .orange {
+    background-color: #fff3cd;   
+    color: #856404;
+  }
+  
+  /* Delete button style */
+  .delete-btn {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 3px;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
